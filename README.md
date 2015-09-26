@@ -24,7 +24,7 @@ require('prototype-pluck');
 ['Clint', 'Nick', 'Steve'].pluck('substring', true, 1, 4); //['lin', 'ick', 'tev']
 </script>
 ```
-##TODO
+## TODO
 - Add unit test (QUnit)
 
 ## License
