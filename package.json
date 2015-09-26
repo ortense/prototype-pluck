@@ -12,6 +12,10 @@
   "bugs": {
     "url": "https://github.com/ortense/prototype-pluck/issues"
   },
+  "keywords": [
+      "Array",
+      "pluck"
+  ],
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-core": "^5.8.25",
