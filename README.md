@@ -7,7 +7,7 @@ This module was inspired by the `pluck` method of [lodash]('https://lodash.com/d
 ## node.js
 
 ```js
-require('pluck');
+require('prototype-pluck');
 
 [{name:'Tony'},{name:'Matt'},{name:'Peter'}].pluck('name'); //['Tony', 'Matt', 'Peter']
 [1,11,111].pluck('toString', true); //['1','11','111']
