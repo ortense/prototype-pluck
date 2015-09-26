@@ -1,0 +1,2 @@
+"use strict";Array.prototype.pluck=function(o,t){for(var r=arguments.length,n=Array(r>2?r-2:0),e=2;r>e;e++)n[e-2]=arguments[e];var u=console&&console.warn,c=[];return t?(n=n||[],this.forEach(function(t){"function"==typeof t[o]?c.push(t[o].apply(t,n)):(u&&console.warn("[prototype-pluck] "+o+" is not a method of object",t),c.push(void 0))})):this.forEach(function(t){return c.push(t[o])}),c};
+//# sourceMappingURL=pluck.js.map
