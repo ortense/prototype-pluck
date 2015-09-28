@@ -15,7 +15,10 @@ Array.prototype.pluck = function (prop_name, executable, ...args) {
                 result.push(item[prop_name].apply(item, args));
             }
             else {
-                hasWarn && console.warn(`[prototype-pluck] ${prop_name} is not a method of object`, item);
+                hasWarn && console.warn(
+                    `[prototype-pluck] ${prop_name} is not a method of object`,
+                    item
+                );
                 result.push(undefined);
             }
         });
